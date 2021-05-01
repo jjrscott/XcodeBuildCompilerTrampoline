@@ -1,0 +1,12 @@
+//
+//  XcodeBuildCompilerTrampoline.xcconfig
+//  TrampolineDemo
+//
+//  Created by John Scott on 4/30/21.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+CC=$(TARGET_TEMP_DIR)/XcodeBuildCompilerTrampolineCC.sh
+LD=$(TARGET_TEMP_DIR)/XcodeBuildCompilerTrampolineLD.sh
