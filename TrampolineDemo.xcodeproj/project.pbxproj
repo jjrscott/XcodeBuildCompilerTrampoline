@@ -144,7 +144,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "env | sort > ~/env.txt\npython3 XcodeBuildCompilerTrampoline/XcodeBuildCompilerTrampoline.py\n";
+			shellScript = "python3 XcodeBuildCompilerTrampoline/XcodeBuildCompilerTrampoline.py\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
